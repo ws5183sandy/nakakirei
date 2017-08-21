@@ -1,21 +1,36 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>LP_1</title>
+    <meta charset="utf-8" />
+    <title>Responsive Image Maps jQuery Plugin</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1" />
+    <style>
+        div {
+            width: 100%;
+            text-align:center;
+        }
+        img[usemap] {
+            border: none;
+            height: auto;
+            max-width: 80%;
+            width: auto;
+        }
+    </style>
 </head>
 
 <body>
-<div style="text-align: center">
+    <div>
+        <img src="./hakouLP-01.jpg" width="1000" height="9898" usemap="#map" alt="" />
+        <map name="map">
+            <area alt="" title="" href="https://www.facebook.com/sandy.wang.3150" shape="rect" coords="980,1237,20,613" />
+        </map>
+        <a href="http://tw.nakakirei.com/qa.html"><img src="./hakouLP-02.jpg" border="0"></a>
+    </div>
 
-<img src="./hakouLP-01.jpg" width="80%"></img>
-
-</div>
-
-<div>
-<div style="text-align: center">
-
-
-<a href="http://tw.nakakirei.com/qa.html"><img src="./hakouLP-02.jpg" width="80%" border="0"></a>
-</div>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.rwdImageMaps.min.js"></script>
+    
 </body>
 </html>
