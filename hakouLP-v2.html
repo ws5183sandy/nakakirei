@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Responsive Image Maps jQuery Plugin</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1" />
+    <style>
+        a{
+            color:white;
+        }
+        #wrapper{
+            position: relative;
+            background:url(./hakouLP-01.jpg) no-repeat 0 0;
+            z-index:0;
+            width:1000px;
+            height:9898px;
+            left: 50%;
+            margin-left: -500px;
+        }
+        #wrapper2{
+            position: relative;
+            text-align:center;
+        }
+        #pos1{
+            position:absolute;
+            width:220px;
+            height:70px;
+            top:950px;
+            left:756px;
+        }
+        #pos2{
+            position:absolute;
+            width:220px;
+            height:70px;
+            top:3440px;
+            left:730px;
+        }
+        #pos3{
+            position:absolute;
+            width:220px;
+            height:70px;
+            top:7850px;
+            left:760px;
+        }
+        #pos1:hover, #pos2:hover, #pos3:hover{
+            border:2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="cnn.com"> <div id="pos1"></div></a>
+        <a href="cnn.com"> <div id="pos2"></div></a>
+        <a href="cnn.com"> <div id="pos3"></div></a>
+    </div>
+    <div id="wrapper2">
+        <a href="http://tw.nakakirei.com/qa.html"><img src="./hakouLP-02.jpg" width="80%"></a>
+    </div>
+    <!--<div>
+        <img src="./hakouLP-01.jpg" width="1000" height="9898" usemap="#map" alt="" />
+        <map name="map">
+            <area alt="" title="" href="https://www.nakakirei.com/global/cb/cart/?promocode=02" shape="rect" coords="758,950,978,1022" />
+            <area alt="" title="" href="https://www.nakakirei.com/global/cb/cart/?promocode=02" coords="734,3442,954,3512" />
+            <area alt="" title="" href="https://www.nakakirei.com/global/cb/cart/?promocode=02" shape="rect" coords="762,7850,982,7922" />
+        </map>
+        <a href="http://tw.nakakirei.com/qa.html"><img src="./hakouLP-02.jpg" width="80% border="0"></a>
+    </div>-->
+    
+</body>
+</html>
